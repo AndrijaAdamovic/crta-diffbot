@@ -1,5 +1,4 @@
 <launch>
     <!--Bottom port next to HDMI port (Jetson Nano) -->
     <node name="serial_node" pkg="rosserial_python" type="serial_node.py">  <param name="port" type="string" value="/dev/serial/by-path/platform-70090000.xusb-usb-0:2.2:1.0"/></node>
-
 </launch>
